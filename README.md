@@ -10,10 +10,16 @@ To run it locally-
 When into the root directory(containing app.py) right click and open VS code or Windows Powershell and execute these commands-
 1. Create a virtual env using
     python -m venv .venv
-2. Install required dependencies
+2. Activate the environment(in Windows Powershell)
+   .venv\Scripts\Activate.ps1
+3. Install required dependencies
    pip install -r requirements.txt
-3. Create a .env file it the root directory and put your own GOOGLE_API_KEY
-4. Run Streamlit to view the app
-   streamlit run app.py\
-5.You can now view your Streamlit app in your browser.
-  Local URL: http://localhost:8501 
+4. Create a .env file it the root directory and put your own GOOGLE_API_KEY
+5. Run Streamlit to view the app
+   streamlit run app.py
+6. You can now view your Streamlit app in your browser.
+  Local URL: http://localhost:8501
+7. Close down Streamlit app
+   Ctrl+C
+8. Deactivate environment
+   deactivate
