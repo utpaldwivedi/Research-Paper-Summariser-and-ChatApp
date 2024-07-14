@@ -14,6 +14,6 @@ When into the root directory(containing app.py) right click and open VS code or 
    pip install -r requirements.txt
 3. Create a .env file it the root directory and put your own GOOGLE_API_KEY
 4. Run Streamlit to view the app
-   streamlit run app.py
+   streamlit run app.py <br/>
 5.You can now view your Streamlit app in your browser.
   Local URL: http://localhost:8501 
